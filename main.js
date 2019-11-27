@@ -42,5 +42,8 @@ function enviar()
     if(Object.keys(errors).length === 0)
     {
         swal("Dados Recebidos Com Sucesso")
+        document.getElementById("nome").value = ""
+        document.getElementById("email").value = ""
+        document.getElementById("telephone").value = ""
     }
 }
