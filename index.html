@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+
+</head>
+<body>
+        <div class="oslo-content">
+            <header>
+                <div class="header-container">
+                <div class="nav-content">
+                    <div>
+                        <img src="images/component.png" alt=""/>
+                    </div>
+
+                    <nav>
+                        <ul>
+                            <li><a href="#">Quem Somos?</a></li>
+                            <li><a href="#">O Que fazemos?</a></li>
+                            <li><a href="#">Segmentos Somos?</a></li>
+                            <li><a href="#">Quem Somos?</a></li>
+                        </ul>
+                    </nav>
+
+                    <div>
+                        <button class="btn btn-white">Entrar</button>
+                    </div>
+                </div>
+
+                <div class="header-content">
+                    <form action="">
+                        <p>Preencha o formulario<br />para receber as novidades</p>
+                        <div class="form-group">
+                            <div>
+                                <input type="text" placeholder="Nome" id="nome" />
+                                <img src="images/user.svg" alt="">
+                                <small id="errorNome"></small>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div>
+                                <input type="text" placeholder="Email" id="email" />
+                                <img src="images/email.svg" alt="">
+                                <small id="errorEmail"></small>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div>
+                                <input type="text" placeholder="Telephone" id="telephone" />
+                                <img src="images/call.svg" alt="">
+                                <small id="errorTelephone"></small>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-blue" onclick="enviar()">Enviar</button>
+                    </form>
+
+                    <div class="header-info">
+                        <h1>Transformando ideias em solucoes <br />eficientes</h1>
+                        <p>Somos uma empresa de engenharia<br />  focada em solucoes de hardware e software</p>
+                        <button class="btn btn-white">Saiba Mais</button>
+                    </div>
+                </div>
+                </div>
+            </header>
+
+            <div id="body-content">
+                <div class="card">
+                    <img src="images/LogoCare.png" class="card-logo"/>
+                    <h2><span>R$</span> 300</h2>
+                    <h3>Plano A</h3>
+                    <div class="card-text">
+                        <img src="images/Page-1.svg" alt="">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="card-text">
+                        <img src="images/Page-1.svg" alt="">
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+                    <div class="card-text">
+                        <img src="images/Page-1.svg" alt="">
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+
+                    <div class="card-text">
+                        <img src="images/Page-1.svg" alt="">
+                        <p>Lorem ipsum dolor.</p>
+                    </div>
+
+                    <div class="card-text">
+                        <img src="images/Page-1.svg" alt="">
+                        <p>Lorem ipsum.</p>
+                    </div>
+
+                    <button class="btn btn-blue"><img src="images/cart.svg">Comprar</button>
+                </div>
+
+                    <div class="card-dark2">
+                            <div class="promocao">
+                                    <p>Promocao</p>
+                                </div>
+                    <div class="card-dark">
+                        <img src="images/logo.png" class="card-logo"/>
+                        <h2><span>R$</span> 300</h2>
+                        <h3>Plano A</h3>
+                    
+                        <div class="card-text">
+                            <img src="images/Page-1.svg" alt="">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="card-text">
+                            <img src="images/Page-1.svg" alt="">
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div class="card-text">
+                            <img src="images/Page-1.svg" alt="">
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+    
+                        <div class="card-text">
+                            <img src="images/Page-1.svg" alt="">
+                            <p>Lorem ipsum dolor.</p>
+                        </div>
+    
+                        <div class="card-text last-child">
+                            <img src="images/Page-1.svg" alt="">
+                            <p>Lorem ipsum.</p>
+                        </div>
+                        <button class="btn btn-white"><img src="images/cart-1.svg">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/LogoCare.png" class="card-logo"/>
+                    <h2><span>R$</span> 300</h2>
+                    <h3>Plano A</h3>
+                    <div class="card-text">
+                        <img src="images/Page-1.svg" alt="">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="card-text">
+                        <img src="images/Page-1.svg" alt="">
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+                    <div class="card-text">
+                        <img src="images/Page-1.svg" alt="">
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+
+                    <div class="card-text">
+                        <img src="images/Page-1.svg" alt="">
+                        <p>Lorem ipsum dolor.</p>
+                    </div>
+
+                    <div class="card-text">
+                        <img src="images/Page-1.svg" alt="">
+                        <p>Lorem ipsum.</p>
+                    </div>
+
+                    <button class="btn btn-blue"><img src="images/cart.svg">Comprar</button>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer-container">
+                    <h1>Fale Conosco!</h1>
+                    <div class="footer-content">
+                        <div class="footer-info">
+                            <div>
+                                <h3><img src="images/IconLocalization.svg">Onde estamos</h3>
+                                <p>Av. Jose de Campos,<br /> 900(Av Norte Sul) 4 andar, sala 41.<br /> Cambui-Campinas, SP</p>
+                            </div>
+
+                            <div>
+                                <h3><img src="images/IconEmail.svg">Email</h3>
+                                <p>contato@oslotech.com.br</p>
+                            </div>
+
+                            <div>
+                                <h3> <img src="images/IconTelephone.svg">Telephone</h3>
+                                <p>+55 19 3382 1210</p>
+                            </div>
+                        </div>    
+                            <form class="footer-form">
+                                <div class="footer-form-group">
+                                    <label htmlFor="">Nome</label>
+                                    <input type="text"/>
+                                </div>
+
+                                <div class="footer-form-group">
+                                    <label htmlFor="">E-mail</label>
+                                    <input type="text"/>
+                                </div>
+
+                                <div class="footer-form-group">
+                                    <label htmlFor="">Assunto</label>
+                                    <input type="text"/>
+                                </div>
+
+                                <div class="footer-form-group">
+                                    <label htmlFor="">Mensagem</label>
+                                    <textarea></textarea>
+                                </div>
+                            </form>
+                    </div>
+                </div>
+            </footer>
+        </div>
+</body>
+
+<script src="main.js"></script>
+</html>
